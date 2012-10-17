@@ -1,0 +1,6 @@
+# system_profiler SPHardwareDataType | grep CPUs will get you the value for each machine that is PPC
+# system_profiler SPHardwareDataType | grep Cores will get you the value for each machine that is x86
+# Make entries in the form:
+# <Node Name>   <CORE Count>
+node1      2
+# Above entry would be for a node with 2 available cores. 
