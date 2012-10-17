@@ -73,6 +73,10 @@ These scripts are rather specific for gas-phase optimizations along two reaction
 
 I would like it if these scripts worked for no-cost QM programs such as GAMESS or open source QM programs such as FreeON. I do not have experience with these programs, but I would like to work with someone who does. If you think that these scripts could help you in your work, I would be more than happy to help you make them compatible with a freely available QM package.
 
+## License
+
+This program is licensed under GPLv2. See LICENSE for more details.
+
 ## Contact 
 
 Email: jmborden@gmail.com
