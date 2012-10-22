@@ -1,6 +1,6 @@
 # Perl scripts for Quantum Mechanical (QM) computational chemistry calculations using Gaussian 03 and ChemSol 
 
-During my graduate work at Loyola University Chicago under the supervision of Dr. Jan Florian, I used the well-known Gaussian suite of QM computational chemistry programs along with ChemSol for the calculation of Langevin Dipoles solvation free energies. This project contains a set of utilities that I wrote for the submission and extraction of data during my dissertation project. These script can be used to produce Gnuplot output such as this:
+During my graduate work at Loyola University Chicago under the supervision of Dr. Jan Florian, I used the well-known Gaussian suite of QM computational chemistry programs along with ChemSol for the calculation of Langevin Dipoles solvation free energies. This project contains a set of utilities that I wrote for the submission and extraction of data during my dissertation project. These scripts can be used to produce Gnuplot output such as this:
 ![PES](http://i.imgur.com/Qkfxm.png)
 
 ## Job submission
