@@ -1,6 +1,7 @@
 # Perl scripts for Quantum Mechanical (QM) computational chemistry calculations using Gaussian 03 and ChemSol 
 
-During my graduate work at Loyola University Chicago under the supervision of Dr. Jan Florian, I used the well-known Gaussian suite of QM computational chemistry programs along with ChemSol for the calculation of Langevin Dipoles solvation free energies. This project contains a set of utilities that I wrote for the submission and extraction of data during my dissertation project. It is hoped that others will find these scripts useful.  Those currently working in Dr. Florian's lab may find them of particular interest. 
+During my graduate work at Loyola University Chicago under the supervision of Dr. Jan Florian, I used the well-known Gaussian suite of QM computational chemistry programs along with ChemSol for the calculation of Langevin Dipoles solvation free energies. This project contains a set of utilities that I wrote for the submission and extraction of data during my dissertation project. These script can be used to produce Gnuplot output such as this:
+![PES](http://i.imgur.com/Qkfxm.png)
 
 ## Job submission
 
@@ -53,7 +54,7 @@ Use the command line option "-h" with **geom.pl** and **geomld.pl** for further 
 
 ## Creation of surfaces
 
-These scripts extract data from Gaussian and ChemSol output files (.log and .cs). The data is meant to be plotted using GNUPlot's **splot** function. The file **PES.plt** contains an example GNUPlot script for generating 3D potential energy surfaces.
+These scripts extract data from Gaussian and ChemSol output files (.log and .cs). The data is meant to be plotted using Gnuplot's **splot** function. The file **PES.plt** contains an example Gnuplot script for generating 3D potential energy surfaces.
 
 #### get-surface.pl
 Utility used to extract data from a surface calculation dir. It outputs surface.txt files
